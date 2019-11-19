@@ -90,7 +90,7 @@ proc do_fsck_objects {} {
 
 proc hint_gc {} {
 	set ndirs 1
-	set limit 8
+	set limit 200
 	if {[is_Windows]} {
 		set ndirs 4
 		set limit 1
